@@ -11,7 +11,10 @@ https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 From a terminal window, navigate to the src/main/resources directory of your app and create a saml directory.
  Navigate into the directory and run the following command.
   Use “secret” when prompted for a keystore password.
-    
+
+```xml
+keytool -genkey -v -keystore keystore.jks -alias spring -keyalg RSA -keysize 2048 -validity 10000
+```    
 
 #### Milestone
 
@@ -37,26 +40,10 @@ You can find the latest milestone in the [Spring Milestone repository](https://r
 #### Snapshot
 
 ```xml
-<dependencies>
-	<dependency>
-		<groupId>org.springframework.security.extensions</groupId>
-		<artifactId>spring-security-saml-dsl</artifactId>
-		<version>1.0.0.BUILD-SNAPSHOT</version>
-	</dependency>
-</dependencies>
-<repositories>
-	<repository>
-		<id>spring-snapshots</id>
-		<name>Spring Snapshots</name>
-		<url>https://repo.spring.io/libs-snapshot</url>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
-</repositories>
+This project is Rest Web Service.
 ```
 
-#### Ref:
+#### Ref that using web application serving HTML page:
 ```xml
 https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 ```
