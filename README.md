@@ -1,9 +1,10 @@
-"# SAML-SpringBoot-OKTA-SSO" 
+# SAML-SpringBoot-OKTA-SSO
 
-##SAML-SpringBoot-OKTA-SSO
-###Spring boot application using for security SAML protocol for Single Sign on "SSO" using OKTA as an IDP
+## SAML-SpringBoot-OKTA-SSO
+### Spring boot application using for security SAML protocol for Single Sign on "SSO" using OKTA as an IDP
 
-``` https://developer.okta.com/blog/2017/03/16/spring-boot-saml
+```xml
+https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 ```
 
 ### keystore Generate 
@@ -55,7 +56,7 @@ You can find the latest milestone in the [Spring Milestone repository](https://r
 </repositories>
 ```
 
-####Ref:
-```
+#### Ref:
+```xml
 https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 ```
